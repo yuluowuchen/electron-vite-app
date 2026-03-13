@@ -62,7 +62,7 @@
 
       <div class="flex-c gap-2.5">
         <!-- 搜索 -->
-        <div
+        <!-- <div
           v-if="shouldShowGlobalSearch"
           class="flex-cb w-40 h-9 px-2.5 c-p border border-g-400 rounded-custom-sm max-md:!hidden"
           @click="openSearchDialog"
@@ -76,7 +76,7 @@
             <ArtSvgIcon v-else icon="ri:command-fill" class="text-xs" />
             <span class="ml-0.5 text-xs">k</span>
           </div>
-        </div>
+        </div> -->
 
         <!-- 全屏按钮 -->
         <ArtIconButton
