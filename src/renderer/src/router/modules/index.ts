@@ -9,7 +9,7 @@ import { exceptionRoutes } from './exception'
  */
 export const routeModules: AppRouteRecord[] = [
   dashboardRoutes,
-  systemRoutes,
-  resultRoutes,
-  exceptionRoutes
+  // systemRoutes,
+  // resultRoutes,
+  // exceptionRoutes
 ]
