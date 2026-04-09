@@ -44,7 +44,7 @@ import { LocationQueryRaw, Router } from 'vue-router'
 import { WorkTab } from '@/types'
 import { useCommon } from '@/hooks/core/useCommon'
 
-interface WorktabState {
+export interface WorktabState {
   current: Partial<WorkTab>
   opened: WorkTab[]
   keepAliveExclude: string[]
